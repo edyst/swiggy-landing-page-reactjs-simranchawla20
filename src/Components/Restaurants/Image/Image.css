@@ -55,20 +55,3 @@
     height: 100%;
 }
 
-@media (max-width:769px){
-    .ss1,.ss2{
-        display: none;
-    }
-}
-@media (max-width:1024px) {
-    .ss1{
-        width: 327px;
-        margin-left: 0px;
-    }
-    .ss2{
-        width: 343px;
-    }
-    .googleplayfoot,.appstorefoot{
-            margin-left: 36px;
-    }
-}
