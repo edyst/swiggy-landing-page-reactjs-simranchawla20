@@ -1,12 +1,14 @@
 import React from 'react'
-import Search from '../Search/Search'
 import Button from '../Button/Button'
 import '../Searchbar/Searchbar.css'
+import Input from '../Input/Input'
+import Locate from '../Locate/Locate'
 
 export default function Searchbar() {
     return (
         <div className="searchbardiv">
-            <Search/>
+            <Input/>
+            <Locate/>
             <Button btncls="orangebtn" btntext="FIND FOOD"/>
         </div>
     )

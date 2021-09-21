@@ -1,12 +1,11 @@
-
-  .preview {
-    display: flex;
-    justify-content: center;
+.preview{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
     align-items: center;
-    
-    height:100%;
-    padding: 77px 15px;
-    overflow:hidden;
-    padding-left: 50px;
-  }
-  
+    padding-right: 2rem;
+}
+@media screen and (max-width:769px) {
+    .preview{
+        grid-template-columns: 100%;
+    }
+}

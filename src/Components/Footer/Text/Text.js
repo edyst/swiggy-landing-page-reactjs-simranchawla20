@@ -5,6 +5,6 @@ export default function Text(props) {
     
    
     return (
-        <li className="listitem"><a href="#" className={props.txtcls}>{props.text}</a></li>
+        <li className="listitem"><a href="/" className={props.txtcls}>{props.text}</a></li>
     )
 }

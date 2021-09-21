@@ -1,12 +1,8 @@
-.contentdiv{
-    width: 56%;
-    height: 100%;
-    padding-left: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+.contentdiv>.container{
+    padding: 0px 3em 0px 3rem;
 }
-.container{
-    width: fit-content;
-    margin-left: 29px;
-    margin-top: 20px;
-}
+/* @media screen and (max-width:1025px) {
+    .contentdiv>.container{
+        padding: 0px 3em 0px;
+    }
+} */

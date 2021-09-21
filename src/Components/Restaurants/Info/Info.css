@@ -1,31 +1,23 @@
-h2{
-    font-size: 40px;
+.infodiv{
+    padding-left: 8rem;
+}
+.infodiv>h2{
+    font-size: 2.5em;
     font-weight: 600;
-    width: 300px;
-    line-height: 1;
-    letter-spacing: -.45px;
     color: #282c3f;
-    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
-    margin-bottom: 0px;
 }
-p{
-    font-size: 20px;
-    width: 400px;
-    font-weight: 300;
-    padding-top: 20px;
-    padding-bottom: 60px;
+.infodiv>p{
+    font-size: 1.25em;
     color: #7e808c;
-    line-height: 1.2;
-    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
-    letter-spacing: 0;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-.imgdiv{
-    display: flex;
-    gap:20px;
 }
 
-
-
-
+@media screen and (max-width:1025px) {
+    .infodiv{
+        padding-left: 2em;
+    }
+}
+/* @media screen and (max-width:769px) {
+    .infodiv{
+        text-align: center;
+    }
+} */
