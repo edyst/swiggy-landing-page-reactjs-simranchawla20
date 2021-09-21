@@ -1,0 +1,20 @@
+.dark{
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 8px;
+    color: #686b78;
+    line-height: 1.5;
+    letter-spacing: -.3px;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-decoration: none;
+}
+.light{
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 8px;
+    line-height: 1.5;
+    letter-spacing: -.3px;
+    color: #93959f;
+    text-decoration: none;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+}

@@ -1,0 +1,32 @@
+.Locatediv{
+   
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: -.35px;
+    color: #535665;
+    display: flex;
+    width: fit-content;
+    height: 38px;
+    margin-top: 10px;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    gap: 5px;
+}
+.Locatediv:hover{
+    background-color: #e9e9eb;
+}
+p{
+    width: fit-content;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -.35px;
+}
+.locateme{
+    cursor: pointer;
+}
+.locateicon{
+    color: #535665;
+    font-size: 14px;
+    cursor: pointer;
+}

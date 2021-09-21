@@ -1,0 +1,74 @@
+.googlePlay, .appStore{
+    width: 185px;
+    height: 54px;
+}
+.ss1{
+    
+    /* padding-bottom: 60px; */
+    top: 0;
+    right: 300px;
+    width: 384px;
+    aspect-ratio: auto 384 / 489;
+    height: 500px;
+    margin-left: 133px;
+    margin-right: -42px;
+    margin-top: -86px;
+}
+.ss2{
+    
+    bottom: 0;
+    right: -45px;
+    width: 384px;
+    aspect-ratio: auto 384 / 489;
+    height: 500px;
+    margin-bottom: -77px;
+}
+.googleplayfoot,.appstorefoot{
+    display: block;
+    cursor: pointer;
+    border-style: none;
+    margin-left: 77px;
+
+}
+.appstorefoot{
+    margin-bottom: 40px;
+}
+.googleplayfoot:hover{
+    transform: scale(1.1);
+}
+.appstorefoot:hover{
+    transform: scale(1.1);
+}
+.swigyimg{
+    border-style: none;
+    width: 142px;
+    cursor: pointer;
+    height: 43px;
+}
+.headerswiggy{
+    filter: invert(58%) sepia(16%) saturate(5733%) hue-rotate(349deg) brightness(101%) contrast(98%);
+    width: 190px;
+    height: 55px;
+}
+.noncontentimg{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:769px){
+    .ss1,.ss2{
+        display: none;
+    }
+}
+@media (max-width:1024px) {
+    .ss1{
+        width: 327px;
+        margin-left: 0px;
+    }
+    .ss2{
+        width: 343px;
+    }
+    .googleplayfoot,.appstorefoot{
+            margin-left: 36px;
+    }
+}

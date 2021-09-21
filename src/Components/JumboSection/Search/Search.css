@@ -1,0 +1,18 @@
+.searchdiv{
+    display :flex;
+    border-left:1px solid #bebfc5;
+    border-top:1px solid #bebfc5;
+    border-bottom:1px solid #bebfc5;
+    gap: 77px;
+    height:58px;
+    padding-top: 0;
+    width: 502px;
+    
+   
+}
+/* .searchdiv:focus{
+    border-left:1px solid #fc8019;
+    border-top:1px solid #fc8019;
+    border-bottom:1px solid #fc8019;
+    box-shadow:;
+} */

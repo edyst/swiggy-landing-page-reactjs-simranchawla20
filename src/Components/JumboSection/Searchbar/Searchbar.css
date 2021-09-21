@@ -1,0 +1,7 @@
+.searchbardiv{
+    display :flex;
+    width: fit-content;
+    height: 60px;
+    margin: 0px;
+    margin-bottom: 33px;
+}

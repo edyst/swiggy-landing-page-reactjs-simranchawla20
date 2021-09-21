@@ -1,0 +1,12 @@
+
+  .preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height:100%;
+    padding: 77px 15px;
+    overflow:hidden;
+    padding-left: 50px;
+  }
+  

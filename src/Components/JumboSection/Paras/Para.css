@@ -1,0 +1,26 @@
+.para-after-animation{
+    font-size: 24px;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 40px;
+    letter-spacing: -0.3px;
+    color: rgb(104, 107, 120);
+    font-family: ProximaNova, Arial, "Helvetica Neue", sans-serif;
+    margin-bottom: 40px;
+    cursor: text;
+}
+.para-after-search{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(169, 171, 178);
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    margin: 0px;
+    font-family: ProximaNova, Arial, "Helvetica Neue", sans-serif;
+    margin-bottom: 15px;
+}
+p{
+    padding: 0px;
+}

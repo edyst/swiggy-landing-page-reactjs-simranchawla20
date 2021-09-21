@@ -1,0 +1,30 @@
+/* features section */
+  
+.features {
+    background: #2b1e16;
+    padding-bottom: 80px;
+
+    max-width: 100%;
+    margin: auto;
+    padding-left: 57px;
+    padding-right: 57px;
+
+
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+
+}
+@media (min-width: 900px) {
+    .features {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:1024px) {
+    .features{
+        padding:0px;
+        padding-bottom: 50px;
+    }
+    
+}

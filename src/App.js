@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Feature from "./Components/FeaturesSection/Feature";
+import Restaurant from "./Components/Restaurants/Restaurant";
+import Footer from './Components/Footer/Footer'
+import Jumbo from "./Components/JumboSection/Jumbo";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Jumbo/>
+      <Feature/>
+      <Restaurant/>
+      <Footer/>
+    </>
   );
 }
 

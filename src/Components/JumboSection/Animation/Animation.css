@@ -1,0 +1,43 @@
+div p span{
+    margin-top: 140px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -0.45px;
+    color: rgb(40, 44, 63);
+    font-family: ProximaNova, Arial, "Helvetica Neue", sans-serif;
+    line-height: 1.2;
+    text-size-adjust: 100%;
+    /* display: none; */
+}
+div p{
+    overflow:hidden;
+}
+div{
+    margin: 0px;
+}
+/* .animate-text span.text-in{
+    display: block;
+    animation: textIn .5s ease;
+}
+
+.animate-text span.text-out{
+    display: block;
+    animation: textOut .5s ease;
+}
+@keyframes textIn {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+@keyframes textOut {
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+} */
